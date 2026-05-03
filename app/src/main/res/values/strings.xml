@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">心光</string>
+    
+    <!-- 导航 -->
+    <string name="nav_diary">心理日记本</string>
+    <string name="nav_energy">能量加油站</string>
+    <string name="nav_chat">AI陪伴</string>
+    <string name="nav_profile">我的</string>
+    
+    <!-- 主页 -->
+    <string name="home_title">心理日记本</string>
+    <string name="home_refresh">刷新</string>
+    <string name="home_empty_title">还没有日记</string>
+    <string name="home_empty_description">开始记录你的第一篇心情日记吧</string>
+    <string name="home_empty_action">写日记</string>
+    
+    <!-- 创建日记 -->
+    <string name="create_title">写心理日记</string>
+    <string name="create_tip">这是你的私密日记本，记录你的心情和想法</string>
+    <string name="create_content_hint">写下你想说的话...</string>
+    <string name="create_content_placeholder">在这里，你可以安全地表达任何想法和感受...</string>
+    <string name="create_publish">保存日记</string>
+    <string name="create_publishing">保存中...</string>
+    <string name="create_analyze">AI情绪分析</string>
+    <string name="create_analyzing">分析中...</string>
+    
+    <!-- 语音录制 -->
+    <string name="voice_start_recording">点击录制语音</string>
+    <string name="voice_recording">正在录音...</string>
+    <string name="voice_stop_recording">再次点击停止录音</string>
+    
+    <!-- 情绪分析 -->
+    <string name="emotion_analysis_title">AI情绪分析</string>
+    <string name="emotion_overall">整体情绪</string>
+    <string name="emotion_happiness">快乐</string>
+    <string name="emotion_sadness">悲伤</string>
+    <string name="emotion_anger">愤怒</string>
+    <string name="emotion_fear">恐惧</string>
+    <string name="emotion_anxiety">焦虑</string>
+    <string name="emotion_risk_warning">⚠️ 检测到风险词汇</string>
+    <string name="emotion_risk_suggestion">我们关心你的安全，建议寻求专业帮助</string>
+    
+    <!-- AI回复 -->
+    <string name="ai_response_title">AI暖心陪伴</string>
+    <string name="ai_suggestions_title">💡 温馨建议</string>
+    <string name="ai_resources_title">🔗 推荐资源</string>
+    
+    <!-- 资源页面 -->
+    <string name="resources_title">心理健康资源</string>
+    <string name="resources_emergency_title">紧急求助</string>
+    <string name="resources_emergency_description">如果你正在经历严重的心理危机，请立即拨打：</string>
+    <string name="resources_hotline">400-161-9995</string>
+    
+    <!-- 个人中心 -->
+    <string name="profile_title">个人中心</string>
+    <string name="profile_anonymous_user">匿名用户</string>
+    <string name="profile_privacy_tip">你的隐私受到完全保护</string>
+    <string name="profile_my_posts">我的倾诉</string>
+    <string name="profile_my_posts_subtitle">查看历史分享</string>
+    <string name="profile_settings">设置</string>
+    <string name="profile_settings_subtitle">个性化设置</string>
+    <string name="profile_help">帮助与反馈</string>
+    <string name="profile_help_subtitle">使用指南和意见反馈</string>
+    <string name="profile_about_title">关于心灵补语</string>
+    <string name="profile_about_description">心灵补语致力于为大学生提供安全、匿名的心理健康支持平台。通过AI技术，我们希望能够及时发现并帮助那些需要关怀的同学。</string>
+    <string name="profile_version">版本 1.0.0</string>
+    
+    <!-- 通用 -->
+    <string name="loading">加载中...</string>
+    <string name="error">出错了</string>
+    <string name="retry">重试</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="anonymous">匿名</string>
+    <string name="just_now">刚刚</string>
+    <string name="minutes_ago">分钟前</string>
+    <string name="hours_ago">小时前</string>
+    
+    <!-- 权限 -->
+    <string name="permission_audio_title">录音权限</string>
+    <string name="permission_audio_description">需要录音权限来录制语音倾诉</string>
+    <string name="permission_storage_title">存储权限</string>
+    <string name="permission_storage_description">需要存储权限来保存录音文件</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 默认：只信任系统 CA，不允许明文 HTTP -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- 例外：仅对已知服务器 IP 允许 HTTP（待上线 HTTPS 后删除） -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.112.1.7</domain>
+        <domain includeSubdomains="false">8.130.156.167</domain>
+        <domain includeSubdomains="false">182.92.10.18</domain>
+        <!-- 开发环境 -->
+        <domain includeSubdomains="false">localhost</domain>
+        <domain includeSubdomains="false">10.0.2.2</domain>
+        <domain includeSubdomains="false">192.168.1.1</domain>
+    </domain-config>
+</network-security-config>

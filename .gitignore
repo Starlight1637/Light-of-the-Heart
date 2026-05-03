@@ -1,0 +1,66 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+local.properties
+backend/.env
+backend/.env.*
+!backend/.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+
+# Android / Gradle
+.gradle/
+build/
+app/build/
+local.properties
+**/build/
+.kotlin/
+captures/
+*.apk
+*.aab
+
+# Web
+node_modules/
+dist/
+web-admin/node_modules/
+web-admin/dist/
+web-admin/.vite/
+
+# IDE and local agent state
+.vscode/
+.idea/
+.claude/
+.agents/
+.kiro/
+*.iml
+.codex/
+
+# Internal specs and generated prototypes
+openspec/
+stitch/
+
+# OS / logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Temporary cleanup area
+待删除文件夹/
+待删除文件夹/**

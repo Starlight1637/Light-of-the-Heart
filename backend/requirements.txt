@@ -1,0 +1,23 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+httpx==0.25.2
+
+# OpenAI-compatible client (DeepSeek proxy)
+openai==1.6.1
+
+# BM25 local retrieval (no GPU needed)
+rank_bm25==0.2.2
+jieba==0.42.1
+
+# Database (SQLite + SQLAlchemy)
+sqlalchemy==2.0.23
+
+# Auth (JWT + password hashing)
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Utilities
+tenacity==8.2.3
+loguru==0.7.2
